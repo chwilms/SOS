@@ -6,5 +6,6 @@ This repository contains the code of our ECCV'24 paper **SOS: Segment Object Sys
 
 [[Paper](https://fiona.uni-hamburg.de/a3c1f3ec/wilms-etal-eccv-2024.pdf)], [[Supplementary Material](https://fiona.uni-hamburg.de/a3c1f3ec/wilms-etal-eccv-2024-supp-mat.pdf)], [[Video](https://youtu.be/ASN9UI9M3NU)]
 
+The **Segment Object System (SOS)** is an open-world instance segmentation system capable of segmenting arbitrary objects in scenes. It utilizes rich pre-trained DINO self-attention maps as object priors to roughly localize unannotated objects in a training dataset. Subsequently, it applies the modern Segment Anything Model (SAM) to produce pseudo annotations from these rough localizations. Finally, a vanilla Mask R-CNN system is trained on original and pseudo annotations to provide strong generalization ability to unannotated objects. Note that a key difference to vanilla SAM is the focus of SOS on objects and not all coherent regions. Overall, SOS produces new state-of-the-art results on several open-world instance segmentation setups.
 
 More to come in mid-September. Stay tuned!

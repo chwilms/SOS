@@ -73,7 +73,7 @@ The result of this step is a file with the merged annotations.
 
 ### Step 5: Training/Testing Mask R-CNN
 
-Using the merged annotations, this step trains a class-agnostic Mask R-CNN, resulting in the final SOS open-world instance segmentation system. To train Mask R-CNN in a class-agnostic manner and the merged annotation in ```/data/SOS/coco/annotations/instances_train2017_voc_SOS_DINO.json```, use the linked detectron2 sub repo and first provide the base directory of the data followed by calling the training script.
+Using the merged annotations, this step trains a class-agnostic Mask R-CNN, resulting in the final SOS open-world instance segmentation system. To train Mask R-CNN in a class-agnostic manner and the merged annotation in ```/data/SOS/coco/annotations/instances_train2017_voc_SOS_DINO.json```, use the [linked detectron2 sub-repo](https://github.com/chwilms/SOS_detectron2/tree/main) and first provide the base directory of the data followed by calling the training script.
 
 ```
 export DETECTRON2_DATASETS=/data/SOS/

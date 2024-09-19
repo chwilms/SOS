@@ -116,8 +116,8 @@ Training dataset is COCO ```train2017``` dataset with original annotations for V
 
 Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
-[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 1.0 | 8.2 | 1.8 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
-[SAM](https://arxiv.org/abs/2304.02643) | 3.6 | 48.1 | 6.7 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
+[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 1.0 | 8.2 | 1.8 | [code](https://github.com/facebookresearch/detectron2)|
+[SAM](https://arxiv.org/abs/2304.02643) | 3.6 | 48.1 | 6.7 | [code](https://github.com/facebookresearch/segment-anything)|
 [OLN](https://arxiv.org/abs/2108.06753) | 4.2 | 28.4 | 7.3 | [code](https://github.com/mcahny/object_localization_network)|
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 4.3 | 24.8 | 7.3 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 4.9 | 28.3 | 8.4 | [code](https://github.com/facebookresearch/Generic-Grouping)|
@@ -131,8 +131,8 @@ Training dataset is COCO ```train2017``` dataset with all original annotations (
 
 Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
-[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 7.5 | 23.6 | 11.4 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
-[SAM](https://arxiv.org/abs/2304.02643) | 6.8 | 45.1 | 11.8 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
+[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 7.5 | 23.6 | 11.4 | [code](https://github.com/facebookresearch/detectron2)|
+[SAM](https://arxiv.org/abs/2304.02643) | 6.8 | 45.1 | 11.8 | [code](https://github.com/facebookresearch/segment-anything)|
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 6.7 | 24.8 | 10.5 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 6.5 | 27.0 | 10.5 | [code](https://github.com/facebookresearch/Generic-Grouping)|
 [SOIS](https://arxiv.org/abs/2208.09023) | - | 25.2 | - | |
@@ -159,8 +159,8 @@ Training dataset is COCO ```train2017``` dataset with all original annotations (
 
 Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
-[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 20.7 | 36.7 | 26.5 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
-[SAM](https://arxiv.org/abs/2304.02643) | 11.3 | 50.1 | 18.4 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
+[Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 20.7 | 36.7 | 26.5 | [code](https://github.com/facebookresearch/detectron2)|
+[SAM](https://arxiv.org/abs/2304.02643) | 11.3 | 50.1 | 18.4 | [code](https://github.com/facebookresearch/segment-anything)|
 [OLN](https://arxiv.org/abs/2108.06753) | - | 41.4 | - | [code](https://github.com/mcahny/object_localization_network)|
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 22.0 | 40.4 | 28.5 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 20.3 | 43.4 | 27.7 | [code](https://github.com/facebookresearch/Generic-Grouping)|

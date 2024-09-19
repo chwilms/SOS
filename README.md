@@ -99,15 +99,15 @@ Training dataset COCO ```train2017``` dataset with original annotations for VOC 
 
 Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
-SOS+*Grid* | 3.8 | 36.5 | 6.9 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosgrid.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosgrid.json)|
-SOS+*Dist* | 3.4 | 27.4 | 6.0 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdist.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdist.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdist.json)|
-SOS+*Spx* | 5.6 | 34.8 | 9.6 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsspx.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosspx.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosspx.json)|
-SOS+*Contour* | 5.6 | 36.6 | 9.7 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptscontour.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysoscontour.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysoscontour.json)|
-SOS+*VOCUS2* | 6.1 | 37.7 | 10.5 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsvocus.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosvocus.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosvocus.json)|
-SOS+*DeepGaze* | 5.4 | 35.9 | 9.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdeepgaze.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdeepgaze.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdeepgaze.json)|
-SOS+*CAM* | 5.4 | 36.7 | 9.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptscam.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysoscam.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysoscam.json)|
-SOS+*DINO* | 8.9 | 38.1 | 14.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdino.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdino.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdino.json)|
-SOS+*U-Net* | 7.3 | 37.3 | 12.2 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsunet.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosunet.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosunet.json)|
+SOS+*Grid* | 3.8 | 36.5 | 6.9 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosgrid.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosgrid.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosgrid.json)|
+SOS+*Dist* | 3.4 | 27.4 | 6.0 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdist.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosdist.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdist.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdist.json)|
+SOS+*Spx* | 5.6 | 34.8 | 9.6 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsspx.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosspx.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosspx.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosspx.json)|
+SOS+*Contour* | 5.6 | 36.6 | 9.7 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptscontour.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsoscontour.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysoscontour.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysoscontour.json)|
+SOS+*VOCUS2* | 6.1 | 37.7 | 10.5 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsvocus.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosvocus.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosvocus.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosvocus.json)|
+SOS+*DeepGaze* | 5.4 | 35.9 | 9.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdeepgaze.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosdeepgaze.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdeepgaze.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdeepgaze.json)|
+SOS+*CAM* | 5.4 | 36.7 | 9.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptscam.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsoscam.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysoscam.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysoscam.json)|
+SOS+*DINO* | 8.9 | 38.1 | 14.4 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdino.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosdino.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdino.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdino.json)|
+SOS+*U-Net* | 7.3 | 37.3 | 12.2 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsunet.json), [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017vocsosunet.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosunet.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosunet.json)|
 
 
 ### OWIS: Cross-category COCO (VOC) -> COCO (non-VOC)
@@ -117,13 +117,13 @@ Training dataset is COCO ```train2017``` dataset with original annotations for V
 Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 [Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 1.0 | 8.2 | 1.8 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
-[SAM](https://arxiv.org/abs/2304.02643) | 2.1 | 23.7 | 3.9 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
+[SAM](https://arxiv.org/abs/2304.02643) | 3.6 | 48.1 | 6.7 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
 [OLN](https://arxiv.org/abs/2108.06753) | 4.2 | 28.4 | 7.3 | [code](https://github.com/mcahny/object_localization_network)|
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 4.3 | 24.8 | 7.3 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 4.9 | 28.3 | 8.4 | [code](https://github.com/facebookresearch/Generic-Grouping)|
 [SWORD](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Exploring_Transformers_for_Open-world_Instance_Segmentation_ICCV_2023_paper.pdf) | 4.8 | 30.2 | 8.3 | |
 [UDOS](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Kalluri_Open-world_Instance_Segmentation_Top-down_Learning_with_Bottom-up_Supervision_CVPRW_2024_paper.pdf) | 2.9 | 34.3 | 5.3 | [code](https://tarun005.github.io/UDOS/)|
-**SOS (ours)** | 8.9 | 29.3 | 14.5 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococovoc.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017sosdinococovoc2cocononvoc.json)|
+**SOS (ours)** | 8.9 | 29.3 | 14.5 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdino.json)), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococovoc.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017sosdinococovoc2cocononvoc.json)|
 
 ### OWIS: Cross-dataset COCO -> LVIS
 
@@ -138,7 +138,7 @@ Obejct Prior  | AP | AR | F $_1$ | |
 [SOIS](https://arxiv.org/abs/2208.09023) | - | 25.2 | - | |
 [OpenInst](https://arxiv.org/abs/2303.15859) | - | 29.3 | - | |
 [UDOS](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Kalluri_Open-world_Instance_Segmentation_Top-down_Learning_with_Bottom-up_Supervision_CVPRW_2024_paper.pdf) | 3.9 | 24.9 | 6.7 | [code](https://tarun005.github.io/UDOS/)|
-**SOS (ours)** | 8.1 | 33.3 | 13.3 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/lvissosdinococo2lvis.json)|
+**SOS (ours)** | 8.1 | 33.3 | 13.3 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017sosdino.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/lvissosdinococo2lvis.json)|
 
 ### OWIS: Cross-dataset COCO -> ADE20k
 
@@ -151,7 +151,7 @@ Obejct Prior  | AP | AR | F $_1$ | |
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 9.5 | 18.5 | 12.6 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 9.7 | 21.0 | 13.3 | [code](https://github.com/facebookresearch/Generic-Grouping)|
 [UDOS](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Kalluri_Open-world_Instance_Segmentation_Top-down_Learning_with_Bottom-up_Supervision_CVPRW_2024_paper.pdf) | 7.6 | 22.9 | 11.4 | [code](https://tarun005.github.io/UDOS/)|
-**SOS (ours)** | 12.5 | 26.5 | 17.0 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/ade20ksosdinococo2ade20k.json)|
+**SOS (ours)** | 12.5 | 26.5 | 17.0 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017sosdino.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/ade20ksosdinococo2ade20k.json)|
 
 ### OWIS: Cross-dataset COCO -> UVO
 
@@ -165,7 +165,7 @@ Obejct Prior  | AP | AR | F $_1$ | |
 [LDET](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136840265.pdf) | 22.0 | 40.4 | 28.5 | [code](https://ksaito-ut.github.io/openworld_ldet/)|
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 20.3 | 43.4 | 27.7 | [code](https://github.com/facebookresearch/Generic-Grouping)|
 [UDOS](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Kalluri_Open-world_Instance_Segmentation_Top-down_Learning_with_Bottom-up_Supervision_CVPRW_2024_paper.pdf) | 10.6 | 43.1 | 17.0 | [code](https://tarun005.github.io/UDOS/)|
-**SOS (ours)** | 20.9 | 42.3 | 28.0 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/uvososdinococo2uvo.json)|
+**SOS (ours)** | 20.9 | 42.3 | 28.0 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/instancestrain2017sosdino.zip), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococo.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/uvososdinococo2uvo.json)|
 
 ## Cite SOS
 

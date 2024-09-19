@@ -20,6 +20,7 @@ First, clone this repository with the ```--recursive``` option
 
 ```
 git clone --recursive https://github.com/chwilms/SOS/tree/main
+git submodule update --recursive --remote
 ```
 
 Depending on the parts of SOS that are needed, different installation requirements exist. If only the final Mask R-CNN in SOS is trained or tested with pre-trained weights, follow the installation instructions in the linked detectron2 repo. If SOS's Pseduo Annotation Creator is of interest, install the linked SAM repo and the ```requirements.txt``` in this repo. Similarly, the packages in the ```requirements.txt``` are needed to generate the prompts from the object priors. Note that only [generate_CAM_prompts.py](prompt_generation/generate_CAM_prompts.py) needs GPU support as well as ```torch```, ```torchvision```, and ```captum```. However, further repositories are needed to create object priors like [*Contour*](https://github.com/pdollar/edges), [*VOCUS2*](https://github.com/GeeeG/VOCUS2/tree/master), [*DeepGaze*](https://github.com/matthias-k/DeepGaze),  or [*DINO*](https://github.com/facebookresearch/dino).

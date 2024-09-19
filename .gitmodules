@@ -1,0 +1,6 @@
+[submodule "SOS_detectron2"]
+	path = SOS_detectron2
+	url = https://github.com/chwilms/SOS_detectron2.git
+[submodule "SOS_segment-anything"]
+	path = SOS_segment-anything
+	url = https://github.com/chwilms/SOS_segment-anything.git

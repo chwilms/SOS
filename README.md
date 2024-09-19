@@ -123,7 +123,7 @@ Obejct Prior  | AP | AR | F $_1$ | |
 [GGN](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Open-World_Instance_Segmentation_Exploiting_Pseudo_Ground_Truth_From_Learned_Pairwise_CVPR_2022_paper.pdf) | 4.9 | 28.3 | 8.4 | [code](https://github.com/facebookresearch/Generic-Grouping)|
 [SWORD](https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Exploring_Transformers_for_Open-world_Instance_Segmentation_ICCV_2023_paper.pdf) | 4.8 | 30.2 | 8.3 | |
 [UDOS](https://openaccess.thecvf.com/content/CVPR2024W/L3D-IVU/papers/Kalluri_Open-world_Instance_Segmentation_Top-down_Learning_with_Bottom-up_Supervision_CVPRW_2024_paper.pdf) | 2.9 | 34.3 | 5.3 | [code](https://tarun005.github.io/UDOS/)|
-**SOS (ours)** | 8.9 | 29.3 | 14.5 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdino.json)), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococovoc.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017sosdinococovoc2cocononvoc.json)|
+**SOS (ours)** | 8.9 | 29.3 | 14.5 | [final merged annotations](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdino.json), [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/sosdinococovoc.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017sosdinococovoc2cocononvoc.json)|
 
 ### OWIS: Cross-dataset COCO -> LVIS
 

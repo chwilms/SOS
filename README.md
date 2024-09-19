@@ -97,7 +97,7 @@ This section provides the intermediate results of SOS and our object prior study
 
 Training dataset COCO ```train2017``` dataset with original annotations for VOC classes (20 classes), test dataset COCO ```val2017``` dataset with original annotations of non-VOC classes (60 classes). Note that we only use 1/4 of the full schedule for training Mask R-CNN here.
 
-Obejct Prior  | AP | AR $_{100}$ | F$_1$ | | 
+Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 SOS+*Grid* | 3.8 | 36.5 | 6.9 | final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosgrid.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosgrid.json)|
 SOS+*Dist* | 3.4 | 27.4 | 6.0 | [prompts](https://fiona.uni-hamburg.de/a3c1f3ec/promptsdist.json), final merged annotations, [pre-trained Mask R-CNN](https://fiona.uni-hamburg.de/a3c1f3ec/studysosdist.pth), [OWIS detections](https://fiona.uni-hamburg.de/a3c1f3ec/val2017studysosdist.json)|
@@ -114,7 +114,7 @@ SOS+*U-Net* | 7.3 | 37.3 | 12.2 | [prompts](https://fiona.uni-hamburg.de/a3c1f3e
 
 Training dataset is COCO ```train2017``` dataset with original annotations for VOC classes (20 classes), test dataset is COCO ```val2017``` dataset with original annotations of non-VOC classes (60 classes).
 
-Obejct Prior  | AP | AR $_{100}$ | F$_1$ | | 
+Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 [Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 1.0 | 8.2 | 1.8 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
 [SAM](https://arxiv.org/abs/2304.02643) | 2.1 | 23.7 | 3.9 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
@@ -129,7 +129,7 @@ Obejct Prior  | AP | AR $_{100}$ | F$_1$ | |
 
 Training dataset is COCO ```train2017``` dataset with all original annotations (80 classes), test dataset is LVIS validation dataset with all original annotations.
 
-Obejct Prior  | AP | AR $_{100}$ | F$_1$ | | 
+Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 [Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 7.5 | 23.6 | 11.4 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
 [SAM](https://arxiv.org/abs/2304.02643) | 6.8 | 45.1 | 11.8 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|
@@ -144,7 +144,7 @@ Obejct Prior  | AP | AR $_{100}$ | F$_1$ | |
 
 Training dataset is COCO ```train2017``` dataset with all original annotations (80 classes), test dataset is ADE20k validation dataset with all original annotations.
 
-Obejct Prior  | AP | AR $_{100}$ | F$_1$ | | 
+Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 [Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 6.9 | 11.9 | 8.7 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
 [OLN](https://arxiv.org/abs/2108.06753) | - | 20.4 | - | [code](https://github.com/mcahny/object_localization_network)|
@@ -157,7 +157,7 @@ Obejct Prior  | AP | AR $_{100}$ | F$_1$ | |
 
 Training dataset is COCO ```train2017``` dataset with all original annotations (80 classes), test dataset is UVO sparse dataset with all original annotations.
 
-Obejct Prior  | AP | AR $_{100}$ | F$_1$ | | 
+Obejct Prior  | AP | AR | F $_1$ | | 
 ------------- | ------------- |  ------------- | ------------- |  ------------- |
 [Mask R-CNN](https://openaccess.thecvf.com/content_ICCV_2017/papers/He_Mask_R-CNN_ICCV_2017_paper.pdf) | 20.7 | 36.7 | 26.5 | [code](https://github.com/facebookresearch/detectron2), OWIS detections|
 [SAM](https://arxiv.org/abs/2304.02643) | 11.3 | 50.1 | 18.4 | [code](https://github.com/facebookresearch/segment-anything), OWIS detections|

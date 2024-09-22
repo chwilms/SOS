@@ -110,11 +110,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Script for combining the original annotations of the known classes "
                                                  "with SOS's pseudo-annotations generated from SAM segments based on "
                                                  "prompts from object priors.")
-    parser.add_argument('base_annotations', type=str, required=True,
+    parser.add_argument('base_annotations', type=str,
                         help='Path to original annotation file (json) of known classes.')
-    parser.add_argument('SAM_segments', type=str, required=True,
+    parser.add_argument('SAM_segments', type=str,
                         help='Path to json file with segments generated with SAM as part of SOS.')
-    parser.add_argument('new_annotations', type=str, required=True,
+    parser.add_argument('new_annotations', type=str,
                         help='Path to output annotation file (.json) for merged original and pseudo annotations.')
     parser.add_argument('--iou', dest='max_iou', default=0.2, type=float,
                         help='Maximum IoU value between each pair of annotations (original or pseudo). Others will be '

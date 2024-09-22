@@ -19,7 +19,10 @@ Overall, SOS produces new state-of-the-art results on several open-world instanc
 First, clone this repository with the ```--recursive``` option
 
 ```
-git clone --recursive https://github.com/chwilms/SOS/tree/main
+git clone --recursive https://github.com/chwilms/SOS.git
+cd SOS
+git config -f .gitmodules submodule.SOS_SAM.branch main
+git config -f .gitmodules submodule.SOS_MASKRCNN.branch main
 git submodule update --recursive --remote
 ```
 

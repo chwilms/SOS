@@ -66,12 +66,12 @@ def launch(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script for generating prompts based on Dist object prior.')
-    parser.add_argument('image_dir', type=str, required=True,
+    parser.add_argument('image_dir', type=str,
                         help="Path to image directory, e.g., COCO's train2017 folder.")
-    parser.add_argument('center_aggregator', type=str, required=True,
+    parser.add_argument('center_aggregator', type=str,
                         help='Probability distribution of object centers from known classes across provided images as '
                              'array in npy file.')
-    parser.add_argument('prompt_path', type=str, required=True,
+    parser.add_argument('prompt_path', type=str,
                         help='Path to outfile (.json) for generated prompts.')
     parser.add_argument('--samples', dest='num_samples', default=50,
                         help='Maximum number of prompts per image. Parameter S in the paper.')

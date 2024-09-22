@@ -77,11 +77,11 @@ def launch(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script for generating prompts based on DINO object prior.')
-    parser.add_argument('image_dir', type=str, required=True,
+    parser.add_argument('image_dir', type=str,
                         help="Path to image directory, e.g., COCO's train2017 folder.")
-    parser.add_argument('attention_maps_dir', type=str, required=True,
+    parser.add_argument('attention_maps_dir', type=str,
                         help="Path to DINO self-attention map directory, e.g., generated from COCO's train2017 images.")
-    parser.add_argument('prompt_path', type=str, required=True,
+    parser.add_argument('prompt_path', type=str,
                         help='Path to outfile (.json) for generated prompts.')
     parser.add_argument('--samples', dest='num_samples', default=50,
                         help='Maximum number of prompts per image. Parameter S in the paper.')

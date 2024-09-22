@@ -66,10 +66,10 @@ def launch(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script for generating prompts based on DeepGaze object prior.')
-    parser.add_argument('deepgaze_maps', type=str, required=True,
+    parser.add_argument('deepgaze_maps', type=str, 
                         help="Path to DeepGaze IIE saliency map directory, e.g., generated from COCO's train2017 "
                              "images.")
-    parser.add_argument('prompt_path', type=str, required=True,
+    parser.add_argument('prompt_path', type=str,
                         help='Path to outfile (.json) for generated prompts.')
     parser.add_argument('--samples', dest='num_samples', default=50,
                         help='Maximum number of prompts per image. Parameter S in the paper.')
